@@ -1,0 +1,9 @@
+
+
+.fundo {
+    width: 1182px;
+    height: 670px;
+    background-size: cover;
+    background-image: url('/assets/imagens/fundo.png');
+    display: inline-block;
+}

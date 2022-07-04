@@ -1,0 +1,18 @@
+<div class="fundo">
+    <form class="form" #frm="ngForm">
+        <fieldset class="principal">
+            <h1 class="titulo">Parceiro</h1>
+            <div class="campo">
+                <label class="texto"> Digite seu E-mail:</label>
+                <input type="email"  class="email" [(ngModel)]="dado.login" name="login" required>
+            </div>
+
+            <div class="campo2">
+                <label class="texto"> Digite sua Senha:</label>
+                <input type="password"  class="senha" [(ngModel)]="dado.senha" name="password" required>
+            </div>
+            <input class="entrar" type="submit" value=" Entrar" (click)="validarLogin()"  [disabled]="frm.invalid">
+        </fieldset>
+
+    </form>
+</div>

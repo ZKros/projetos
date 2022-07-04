@@ -1,0 +1,57 @@
+.titulo {
+    font-size: 40px;
+    padding: 40px 0 80px 20px;
+    color: blanchedalmond;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+.principal {
+    text-align: left;
+    padding: 50px;
+    width: 200px;
+    height: 570px;
+    border-style: none;
+}
+
+.campo {
+    padding: 0 0 30px 0;
+}
+
+.campo2 {
+    padding: 0 0 30px 0;
+}
+
+
+.email {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.senha {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.entrar {
+    margin: 40px;
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    color: black;
+}
+
+input::placeholder {
+    color: black;
+}
+
+.fundo {
+    background-size: cover;
+    background-image: url('/assets/imagens/fundo2.png');
+
+}
+
+.texto {
+    color: blanchedalmond;
+}
